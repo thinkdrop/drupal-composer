@@ -3,3 +3,4 @@ deploy: |
   drush {{alias}} cc all
   drush status
   env
+
