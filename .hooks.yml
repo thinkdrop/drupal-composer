@@ -1,6 +1,6 @@
 deploy: |
   drush {{alias}} updb -y
-  drush {{alias}} cc all
+  drush {{alias}} cr
   drush status
   env
 
